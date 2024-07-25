@@ -1,0 +1,12 @@
+.table {
+  margin: 0 auto;
+  border-collapse: collapse;
+
+  thead {
+    text-align: center;
+  }
+
+  tbody {
+    color: rgb(var(--cl-black));
+  }
+}

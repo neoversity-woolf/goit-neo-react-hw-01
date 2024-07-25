@@ -1,0 +1,8 @@
+.profile {
+  max-width: 20rem;
+  margin-inline: auto;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgb(var(--cl-dark));
+  border-radius: var(--border-sm);
+  overflow: hidden;
+}

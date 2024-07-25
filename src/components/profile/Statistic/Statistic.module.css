@@ -1,0 +1,29 @@
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(var(--cl-light) / 20%);
+
+  li {
+    padding: 1.25rem 1rem;
+    border-top: 1px solid rgb(var(--cl-secondary));
+    text-align: center;
+
+    &:nth-child(2) {
+      border: 1px solid rgb(var(--cl-secondary));
+      border-bottom: none;
+    }
+  }
+
+  .label {
+    display: block;
+    margin-block-end: 0.25rem;
+    font-size: var(--font-sm);
+    text-transform: capitalize;
+    color: rgb(var(--cl-black));
+  }
+  .quantity {
+    font-size: var(--font-base);
+    font-weight: 600;
+    color: rgb(var(--cl-black));
+  }
+}

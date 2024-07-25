@@ -1,0 +1,14 @@
+.name {
+  margin-block-start: 2rem;
+  margin-block-end: 0.5rem;
+  font-size: var(--font-md);
+  font-weight: 600;
+  color: rgb(var(--cl-black));
+}
+.tag {
+  margin-block-end: 0.5rem;
+  font-size: var(--font-sm);
+}
+.location {
+  font-size: var(--font-sm);
+}
