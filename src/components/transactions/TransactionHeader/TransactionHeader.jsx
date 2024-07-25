@@ -1,6 +1,6 @@
-import css from './TransactionsHeader.module.css';
+import css from './TransactionHeader.module.css';
 
-const TransactionsHeader = () => {
+const TransactionHeader = () => {
   const tableHeaderItems = ['Type', 'Amount', 'Currency'];
 
   const createTableHeaderMarkup = (item, idx) => {
@@ -14,4 +14,4 @@ const TransactionsHeader = () => {
   return <tr>{tableHeaderItems.map(createTableHeaderMarkup)}</tr>;
 };
 
-export default TransactionsHeader;
+export default TransactionHeader;

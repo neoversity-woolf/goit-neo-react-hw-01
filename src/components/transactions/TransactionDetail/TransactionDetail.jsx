@@ -1,6 +1,6 @@
-import css from './TransactionsDetail.module.css';
+import css from './TransactionDetail.module.css';
 
-const TransactionsDetail = ({ details }) => {
+const TransactionDetail = ({ details }) => {
   const createTableContentMarkup = ({ id, type, amount, currency }) => {
     return (
       <tr key={id} className={css.tr}>
@@ -14,4 +14,4 @@ const TransactionsDetail = ({ details }) => {
   return <>{details.map(createTableContentMarkup)}</>;
 };
 
-export default TransactionsDetail;
+export default TransactionDetail;

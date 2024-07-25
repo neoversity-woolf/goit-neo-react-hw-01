@@ -1,5 +1,5 @@
-import TransactionsHistory from './TransactionsHistory/TransactionsHistory';
-import TransactionsHeader from './TransactionsHeader/TransactionsHeader';
-import TransactionsDetail from './TransactionsDetail/TransactionsDetail';
+import TransactionHistory from './TransactionHistory/TransactionHistory';
+import TransactionHeader from './TransactionHeader/TransactionHeader';
+import TransactionDetail from './TransactionDetail/TransactionDetail';
 
-export { TransactionsHistory, TransactionsHeader, TransactionsDetail };
+export { TransactionHistory, TransactionHeader, TransactionDetail };
